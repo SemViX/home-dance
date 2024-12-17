@@ -1,0 +1,40 @@
+
+button{
+    border-radius: 60px;
+    max-width: 180px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.25s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+
+.purple{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    &:hover{
+        background-color: var(--button-hover-color);
+        color: var(--text-hover);
+    }
+}
+
+.transparent{
+    background-color: rgba($color: #000000, $alpha: 0.0);
+    border: solid 2px var(--third-text-color);
+    color: var(--third-text-color);
+    &:hover{
+        border: solid 2px var(--text-hover);
+        color: var(--text-hover);
+    }
+}
+
+.large{
+    height: 60px;
+}
+
+.medium{
+    height: 40px;
+}

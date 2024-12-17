@@ -1,0 +1,31 @@
+.info_section{
+    min-height: 100vh;
+    padding: 50px 150px;
+    color: var(--third-text-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .part_one{
+        h1{
+            font-size: 67px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+    }
+
+    .info{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width:1100px) {
+    .info_section{
+        padding: 50px;
+        flex-direction: column;
+        gap: 50px;
+    }
+}

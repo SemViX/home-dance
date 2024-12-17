@@ -1,0 +1,31 @@
+.future_section{
+    padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(172,168,204,1) 0%, rgba(154,25,190,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    overflow: hidden;
+
+    .future_content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            color: var(--text-color);
+            text-align: center;
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 21px;
+            color: var(--text-color);
+            margin: 50px 0
+        }
+    }
+}

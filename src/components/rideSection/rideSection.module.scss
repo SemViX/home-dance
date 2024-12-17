@@ -1,0 +1,40 @@
+.ride_section{
+    overflow: hidden;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+
+    .section_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: var(--third-text-color);
+
+        h1{
+            font-size: 67px;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+        }
+    }
+
+    img{
+        max-width: 600px;
+        max-height: 400px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .ride_section{
+        padding: 50px;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,47 @@
+.members_section{
+    padding: 50px 150px;
+    min-height: 460px;
+    h1{
+        font-size: 10pz;
+        font-weight: bold;
+        line-height: 66px;
+        color: var(--second-text-color);
+    }
+
+    .section_content{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        .message{
+            max-width: 250px;
+            color: var(--second-text-color);
+            text-align: left;
+
+            p{
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            span{
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media (max-width:1100px) {
+    .members_section{
+        padding: 50px;
+        h1{
+            text-align: center;
+        }
+        height: auto;
+
+        .section_content{
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+    }
+   
+}
